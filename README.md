@@ -2,7 +2,7 @@
 
 ## Introduction and Inspiration
 
-The Teacher Letter Generator is a web application developed by Wisdom Edem Sena to address the recurring need among educators for efficient letter-writing assistance. Inspired by the frequent requests from teachers seeking support in drafting professional letters such as those for upgrading, appointment acceptance, and transfers. By leveraging technology, the Teacher Application Letters Generator aims to simplify the creation of personalized letters for educators.
+The Teacher Application Letters Generator is a web application developed by Wisdom Edem Sena to address the recurring need among teachers in Ghana for efficient letter-writing assistance. Inspired by the frequent requests from teachers seeking support in drafting professional letters such as those for upgrading, appointment acceptance, salary re-activation, reposting and transfers. By leveraging technology, the Teacher Application Letters Generator aims to simplify the creation of personalized letters for teachers.
 
 - **Deployed Site:** [Teacher Application Letters Generator](#) (link pending deployment)
 - **Final Project Blog Article:** [Link to Blog Article](#) (link pending)
