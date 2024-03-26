@@ -6,7 +6,7 @@ The Teacher Letter Generator is a web application developed by Wisdom Edem Sena 
 
 - **Deployed Site:** [Teacher Application Letters Generator](#) (link to be updated upon deployment)
 - **Final Project Blog Article:** [Link to Blog Article](#) (to be updated)
-- **Author(s) LinkedIn:** [Wisdom Edem Sena](https://www.linkedin.com/in/wisdom-edem-sena-226704191?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpy4hhQ7FQv2LmroNcaVXFQ%3D%3D) (link to LinkedIn profile)
+- **Author(s) LinkedIn:** [Wisdom Edem Sena](https://www.linkedin.com/in/wisdom-edem-sena-226704191?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpy4hhQ7FQv2LmroNcaVXFQ%3D%3D)
 
 
 ![image](https://github.com/wisdomsena36/MVP-Review/assets/57534261/2e062224-d9d4-4d59-9537-8ef23ceae0c1)
