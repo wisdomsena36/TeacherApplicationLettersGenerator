@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fillformstyle.css') }}">
+
+    <title>Fill Application for Acceptance of Appointment Form</title>
+</head>
+<body>
+<div class="container">
+    <header>Application For Acceptance of Appointment</header>
+
+    <form action="/download_acceptance_of_appointment" method="POST">
+        <div class="form first">
+            <div class="details personal">
+                <span class="title">Fill in the Form</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" name="name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Reference on Appointment Letter</label>
+                        <input type="text" placeholder="Enter reference" name="reference" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date on Appointment Letter</label>
+                        <input type="date" placeholder="DDTH MONTH, YYYY" name="date_on_appointment_letter" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date on Letter</label>
+                        <input type="date" placeholder="DDTH MONTH, YYYY" name="date_on_letter" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Place of Work</label>
+                        <input type="text" placeholder="Enter name of your workplace" name="school" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Region</label>
+                        <input type="text" placeholder="Eg. Volta Region" name="region" required>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="details ID">
+
+                <div class="fields">
+
+                    <div class="input-field">
+                        <label>Region Town</label>
+                        <input type="text" placeholder="Eg. Ho" name="region_town" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Postal Address</label>
+                        <input type="text" placeholder="Eg. P.O. Box 145" name="address" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Town for Address</label>
+                        <input type="text" placeholder="Eg. Ho" name="address_town" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Mobile Number</label>
+                        <input type="number" placeholder="Enter your phone number" name="phone" required>
+                    </div>
+
+                </div>
+                <button class="sumbit">
+                    <span class="btnText">Generate</span>
+                    <i class="uil uil-download-alt"></i>
+                </button>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

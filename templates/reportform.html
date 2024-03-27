@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/feedbackstyle.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Report Issue</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h3>Report Issue Form</h3>
+        <form id="feedbackForm" action="/submit_report" method="post">
+
+			<input type="text" name="name" placeholder="Your Name" required>
+
+			<input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="report" cols="30" rows="5" placeholder="Enter your report..." required></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/feedbackscript.js') }}"></script>
+
+</body>
+</html>

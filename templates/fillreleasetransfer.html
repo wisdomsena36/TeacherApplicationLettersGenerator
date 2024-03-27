@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fillformstyle.css') }}">
+
+    <title>Fill Application For Release Transfer Form</title>
+</head>
+<body>
+<div class="container">
+    <header>Application For Release Transfer</header>
+
+    <form action="/download_release_transfer" method="POST">
+        <div class="form first">
+            <div class="details personal">
+                <span class="title">Fill in the Form</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" name="name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Staff ID</label>
+                        <input type="number" placeholder="Enter your staff ID" name="staffid" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Mobile Number</label>
+                        <input type="number" placeholder="Enter mobile number" name="phone" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date on Letter</label>
+                        <input type="date" placeholder="DDTH MONTH, YYYY" name="date_on_letter" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Registered No.</label>
+                        <input type="text" placeholder="Enter your registered no." name="registeredno" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Place of Work</label>
+                        <input type="text" placeholder="Enter name of your workplace" name="school" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details ID">
+
+                <div class="fields">
+
+                    <div class="input-field">
+                        <label>District/Municipal/Metropolitan</label>
+                        <input type="text" placeholder="Eg. Ho Municipal" name="district" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>District Town</label>
+                        <input type="text" placeholder="Eg. Ho" name="district_town" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Postal Address</label>
+                        <input type="text" placeholder="Eg. P.O. Box 145" name="address" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Town for Address</label>
+                        <input type="text" placeholder="Eg. Ho" name="address_town" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>No. of Years in the School</label>
+                        <input type="number" placeholder="No. of years in the school" name="years_in_school" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Current District/Region</label>
+                        <input type="text" placeholder="Enter your current district or region" name="curr_dist_reg" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>New District/Region</label>
+                        <input type="text" placeholder="Enter your new district or region" name="new_dist_reg" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="level_of_transfer">Level of Transfer</label>
+                        <select name="level_of_transfer" id="level_of_transfer" required>
+                            <option value="" disabled selected>Select Level of Transfer</option>
+                            <option value="Inter-district">Inter-district</option>
+                            <option value="Inter-region">Inter-region</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Reason for Reposting</label>
+                        <input type="text" placeholder="Eg. to be close to my family" name="reason" required>
+                    </div>
+
+                </div>
+                <button class="sumbit">
+                    <span class="btnText">Generate</span>
+                    <i class="uil uil-download-alt"></i>
+                </button>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
