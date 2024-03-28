@@ -4,6 +4,7 @@
 
 The Teacher Application Letters Generator is a web application developed by Wisdom Edem Sena to address the recurring need among teachers in Ghana for efficient letter-writing assistance. Inspired by the frequent requests from teachers seeking support in drafting professional letters such as those for upgrading, appointment acceptance, salary re-activation, reposting and transfers. By leveraging technology, the Teacher Application Letters Generator aims to simplify the creation of personalized letters for teachers.
 
+- **Demo:** [Teacher Application Letters Generator Demo](https://youtu.be/heUotyHo0Kk?si=5SeHmYdBE7ucyVsN)
 - **Deployed Site:** [Teacher Application Letters Generator](#) (link pending deployment)
 - **Final Project Blog Article:** [Link to Blog Article](#) (link pending)
 - **Author(s) LinkedIn:** [Wisdom Edem Sena](https://www.linkedin.com/in/wisdom-edem-sena-226704191?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpy4hhQ7FQv2LmroNcaVXFQ%3D%3D)
@@ -29,7 +30,7 @@ To utilize the Teacher Application Letters Generator locally, follow these insta
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Install dependencies using `pip install -r requirements.txt`.
-4. Add your Google Developer Console credentials to the `app.py` file. (Instructions for obtaining these credentials can be found [here](https://dev.to/mar1anna/flask-app-login-with-google-3j24)).
+4. Add your Google Developer Console credentials to the `credentials.py` file. (Instructions for obtaining these credentials can be found [here](https://dev.to/mar1anna/flask-app-login-with-google-3j24)).
 5. Run the application using `python app.py`.
 6. Access the application through your web browser at `http://localhost:5000`.
 ## Usage
